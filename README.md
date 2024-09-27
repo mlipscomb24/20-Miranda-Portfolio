@@ -38,6 +38,11 @@ Navigate through the different sections using the menu in the header. You can ex
 - CSS for styling
 -
 
+## Screenshots
+
+![About](/public/images/20_About.png)
+
+![Resume](/public/images/20_Resume.png)
 ## Contributing
 
 Contributions, issues, and feature requests are welcome. 
