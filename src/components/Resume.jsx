@@ -16,13 +16,22 @@ const Resume = () => {
   return (
     <section className="resume">
       <h2>Resume</h2>
-      <a
-        href="/path/to/your/resume.pdf"
-        download="YourName_Resume.pdf"
-        className="download-link"
-      >
-        Download Resume
-      </a>
+      <div className="resume-container">
+        <iframe
+          src="/assets/DRAFTMiranda.Resume.pdf"
+          title="Resume"
+          width="100%"
+          height="600px"
+          className="resume-pdf"
+        />
+        <a
+          href="/assets/DRAFTMiranda.Resume.pdf"
+          download="YourName_Resume.pdf"
+          className="download-link"
+        >
+          Download Resume
+        </a>
+      </div>
       <div className="proficiencies">
         <h3>Technical Proficiencies</h3>
         <ul>
