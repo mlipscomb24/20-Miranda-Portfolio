@@ -5,19 +5,40 @@ const Portfolio = () => {
   const projects = [
     {
       title: "Pantry Pals",
-      image: "/images/Pantry_Pals.png", // Updated path
-      deployedLink: "https://project1.com",
+      image: "/images/Pantry_Pals.png",
       githubLink: "https://github.com/mlipscomb24/P2-Pantry_Pals",
       description: "A brief description of Pantry Pals",
     },
     {
-      title: "Project 2",
-      image: "/images/project2.jpg", // Assuming you'll add this image later
-      deployedLink: "https://project2.com",
-      githubLink: "https://github.com/yourusername/project2",
-      description: "A brief description of project 2",
+      title: "Just Another Text Editor",
+      image: "/images/JATE.png",
+      githubLink: "https://github.com/mlipscomb24/Just-Another-Text-Editor_19",
+      description: "A Progressive Web Application for text editing",
     },
-    // Add four more projects here to have a total of six
+    {
+      title: "Project 3",
+      image: "/images/project3.png",
+      githubLink: "https://github.com/yourusername/project3",
+      description: "Description of project 3",
+    },
+    {
+      title: "Project 4",
+      image: "/images/project4.png",
+      githubLink: "https://github.com/yourusername/project4",
+      description: "Description of project 4",
+    },
+    {
+      title: "Project 5",
+      image: "/images/project5.png",
+      githubLink: "https://github.com/yourusername/project5",
+      description: "Description of project 5",
+    },
+    {
+      title: "Project 6",
+      image: "/images/project6.png",
+      githubLink: "https://github.com/yourusername/project6",
+      description: "Description of project 6",
+    },
   ];
 
   return (
